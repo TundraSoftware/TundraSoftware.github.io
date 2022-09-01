@@ -70,7 +70,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 768px){
+@media (max-width: 500px){
   .logo{
     width: 200px;
     height: auto;
