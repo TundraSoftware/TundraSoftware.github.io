@@ -75,6 +75,9 @@
     width: 200px;
     height: auto;
   }
+  .centratutto{
+    text-align: center;
+  }
 
 }
 
