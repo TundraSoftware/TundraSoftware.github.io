@@ -70,7 +70,8 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 500px){
+/*  il mio telefono */
+@media (max-width: 768px){
   .logo{
     width: 200px;
     height: auto;
@@ -78,8 +79,9 @@
   .centratutto{
     text-align: center;
   }
-
 }
+
+
 
 body {
   margin: 0;
@@ -1335,7 +1337,6 @@ progress {
   .col-lg {
     flex: 1 0 0%;
   }
-
   .row-cols-lg-auto > * {
     flex: 0 0 auto;
     width: auto;
@@ -7297,7 +7298,7 @@ textarea.form-control-lg {
 }
 
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 2rem !important;
   margin-bottom: 3rem !important;
 }
 
@@ -11323,4 +11324,7 @@ html {
 .margini{
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.paddingo{
+  padding: 20px;
 }
