@@ -1,9 +1,9 @@
 <?php
 
 
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$messaggio = $_POST['messaggio'];
+$nome = $_GET['nome'];
+$email = $_GET['email'];
+$messaggio = $_GET['messaggio'];
 
 //Controlli
 if($nome==""){
