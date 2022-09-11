@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb: 101, 194, 122;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -50,7 +50,7 @@
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
+  --bs-black-rgb: 49, 46, 64;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -251,11 +251,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
-  text-decoration: underline;
+  color: #312e40;
+  text-decoration: none;
 }
 a:hover {
-  color: #0a58ca;
+  color: #312e40;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4552,6 +4552,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  text-align: center;
 }
 
 .card-title {
@@ -7300,6 +7301,10 @@ textarea.form-control-lg {
 .my-5 {
   margin-top: 2rem !important;
   margin-bottom: 3rem !important;
+}
+
+.margine-basso{
+  margin-bottom: 4rem !important;
 }
 
 .my-auto {
