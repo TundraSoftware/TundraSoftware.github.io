@@ -1,6 +1,6 @@
 /* Reset dello stile NON CANCELLARE */
-body, html{background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%, #000 100%), url("../img/texture.webp"); 
-    color:#F3F4F5; font-family: 'Montserrat', sans-serif; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol,ul{list-style-type: none;}img{height: auto;}h1{font-size: 4rem;} h2{font-size: 3rem;} h3{font-size: 2rem;} h4{font-size: 1rem;} h5{font-size: 0.8rem;} h6{font-size: 0.6rem;}a{text-decoration:none}
+body, html{background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%, #fff 100%), url("../img/texture.webp"); 
+    color:var(--bs-nero1); font-family: 'Montserrat', sans-serif; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol,ul{list-style-type: none;}img{height: auto;}h1{font-size: 4rem;} h2{font-size: 3rem;} h3{font-size: 2rem;} h4{font-size: 1rem;} h5{font-size: 0.8rem;} h6{font-size: 0.6rem;}a{text-decoration:none}
 
 
 :root {
@@ -14,6 +14,23 @@ body, html{background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0,
     --bs-nero2:#6C658C;
     --bs-nero3:#9C93CC;
 }
+
+.darkMode{
+    --bs-bianco1:#F3F4F5;
+    --bs-bianco2:#D9DADB;
+    --bs-bianco3:#747575;
+    --bs-verde1:#7FF59A;
+    --bs-verde2:#72DB8B;
+    --bs-verde3:#1C3622;
+    --bs-nero1:#312E40;
+    --bs-nero2:#6C658C;
+    --bs-nero3:#9C93CC;
+  
+    color: var(--bs-bianco1) !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%, #000 100%), url("../img/texture.webp")!important;
+}
+
+/*background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%, #fff 100%), url("../img/texture.webp"); */
 
 .big-title{
     font-size: 32px;
@@ -42,7 +59,7 @@ body, html{background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0,
 /*NAVBAR*/
 .navbar-item-color{
     min-width: 100px; padding: 10px;
-    color: #1C3622;
+    color:var(--bs-verde3);
 }
 
 .navbar-item-color:hover{
@@ -51,7 +68,7 @@ body, html{background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0,
 }
 
 .navbar-color{
-    background-color: #F3F4F5;
+    background-color:var(--bs-bianco1);
 }
 
 
