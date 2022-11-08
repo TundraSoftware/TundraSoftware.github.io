@@ -8,7 +8,7 @@ toggle.addEventListener('click', function(){
         body.style.color = 'var(--bs-nero1)';
         body.style.transition = '0.5s';
     }else{
-        body.style.background = 'linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%, #000 100%)';
+        body.style.background = 'linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%, #000 100%)';
         body.style.color = 'var(--bs-bianco1)';
         body.style.transition = '0.5s';
     }
