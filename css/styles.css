@@ -79,6 +79,9 @@ body{
 a{
     color: inherit;
 }
+a:link{
+    color: inherit;   
+}
 
 
 /* MOBILE*/
