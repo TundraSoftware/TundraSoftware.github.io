@@ -15,9 +15,6 @@ body, html{background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, r
     --bs-nero3:#9C93CC;
 }
 
-
-/*background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%, #fff 100%), url("../img/texture.webp"); */
-
 .big-title{
     font-size: 32px;
     font-weight: bold;
@@ -56,6 +53,11 @@ body, html{background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, r
 .navbar-color{
     background-color:var(--bs-bianco1);
 }
+.active{
+    color:var(--bs-verde1);
+
+}
+
 
 
 /*HELPER*/

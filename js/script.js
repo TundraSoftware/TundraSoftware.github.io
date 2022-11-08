@@ -1,3 +1,5 @@
+//DARKMODE TOGGLE
+
 const toggle = document.getElementById('toggleDark');
 const body = document.querySelector('body');
 
@@ -13,3 +15,13 @@ toggle.addEventListener('click', function(){
         body.style.transition = '0.5s';
     }
 });
+
+//ACTIVE TOGGLE
+const activeLink=document.querySelectorAll('.navbar-item-color');
+for(let clickTab of activeLink){  
+  clickTab.onclick=function(){
+    let activeClass=document.querySelectorAll('.active');
+      activeClass[0].classList.remove('active')
+      clickTab.classList.add('active'); 
+  }  
+}
